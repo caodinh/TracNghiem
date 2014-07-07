@@ -7,10 +7,9 @@
     tools:context="${packageName}.${activityClass}" >
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="left"
-        android:text="Câu 1: Với bạn, thế nào là một buổi hò hẹn ngọt ngào bên chồng?" />
+        android:text="Câu 3: Bạn sẽ xử lý ra sao nếu giữa bạn và chồng nảy sinh mâu thuẫn?" />
 
     <RadioGroup
         android:id="@+id/radioGroup1"
@@ -22,19 +21,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Một chuyến dã ngoại" />
+            android:text="Dù phải to tiếng bạn cũng sẽ “chiến đấu” đến cùng" />
 
         <RadioButton
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buổi tối tại nhà hàng sang trọng với thực đơn tuyệt vời và khiêu vũ trong khung cảnh lãng mạn" />
+            android:text="Bạn không im lặng khi có mâu thuẫn tuy nhiên bạn cũng sẽ lắng nghe ông xã" />
 
         <RadioButton
             android:id="@+id/radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cuộn mình trên chiếc ghế dài, cùng xem phim và thưởng thức ly rượu vang sau một tuần làm việc bận rộn" />
+            android:text="Thay vì tranh cãi, bạn luôn tìm cách thảo luận nhẹ nhàng với ông xã để tìm cách hóa giải" />
     </RadioGroup>
 
 </LinearLayout>

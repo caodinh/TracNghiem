@@ -4,5 +4,9 @@
     <string name="app_name">Trắc Nghiệm</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_cau1">Cau1Activity</string>
+    <string name="title_activity_cau2">Cau2Activity</string>
+    <string name="title_activity_cau3">Cau3Activity</string>
+    <string name="title_activity_cau4">Cau4Activity</string>
+    <string name="title_activity_cau5">Cau5Activity</string>
 
 </resources>

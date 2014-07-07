@@ -7,10 +7,9 @@
     tools:context="${packageName}.${activityClass}" >
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="left"
-        android:text="Câu 1: Với bạn, thế nào là một buổi hò hẹn ngọt ngào bên chồng?" />
+        android:text="Cau 4: Vợ chồng bạn sẽ quản lý tài chính như thế nào? " />
 
     <RadioGroup
         android:id="@+id/radioGroup1"
@@ -22,19 +21,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Một chuyến dã ngoại" />
+            android:text="Vợ chồng bạn biết tích lũy tiền bạc cũng như cân bằng tài khoản của mình. Vì thế, khi cần chi một khoản tương đối, hai bạn không phải đắn đo nhiều" />
 
         <RadioButton
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buổi tối tại nhà hàng sang trọng với thực đơn tuyệt vời và khiêu vũ trong khung cảnh lãng mạn" />
+            android:text="Một trong hai bạn là người tích lũy và nửa kia chi tiêu có phần mạnh tay" />
 
         <RadioButton
             android:id="@+id/radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cuộn mình trên chiếc ghế dài, cùng xem phim và thưởng thức ly rượu vang sau một tuần làm việc bận rộn" />
+            android:text="Bạn và ông xã không ngại chi tền cho những sở thích đôi khi là nhất thời của bản thân" />
     </RadioGroup>
 
 </LinearLayout>

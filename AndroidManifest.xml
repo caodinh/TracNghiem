@@ -26,6 +26,22 @@
             android:name="khunglongteam.tracnghiem.Cau1Activity"
             android:label="@string/title_activity_cau1" >
         </activity>
+        <activity
+            android:name="khunglongteam.tracnghiem.Cau2Activity"
+            android:label="@string/title_activity_cau2" >
+        </activity>
+        <activity
+            android:name="khunglongteam.tracnghiem.Cau3Activity"
+            android:label="@string/title_activity_cau3" >
+        </activity>
+        <activity
+            android:name="khunglongteam.tracnghiem.Cau4Activity"
+            android:label="@string/title_activity_cau4" >
+        </activity>
+        <activity
+            android:name="khunglongteam.tracnghiem.Cau5Activity"
+            android:label="@string/title_activity_cau5" >
+        </activity>
     </application>
 
 </manifest>
