@@ -11,14 +11,18 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int background=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f060000;
-        public static final int radio0=0x7f060002;
-        public static final int radio1=0x7f060003;
-        public static final int radio2=0x7f060004;
-        public static final int radioGroup1=0x7f060001;
+        public static final int btnChonlai=0x7f060005;
+        public static final int btnStart=0x7f060007;
+        public static final int radioA=0x7f060002;
+        public static final int radioB=0x7f060003;
+        public static final int radioC=0x7f060004;
+        public static final int radioGroupCau1=0x7f060001;
+        public static final int textView1=0x7f060006;
     }
     public static final class layout {
         public static final int activity_cau1=0x7f030000;

@@ -12,25 +12,25 @@
         android:text="Câu 3: Bạn sẽ xử lý ra sao nếu giữa bạn và chồng nảy sinh mâu thuẫn?" />
 
     <RadioGroup
-        android:id="@+id/radioGroup1"
+        android:id="@+id/radioGroupCau1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/radioA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="Dù phải to tiếng bạn cũng sẽ “chiến đấu” đến cùng" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/radioB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bạn không im lặng khi có mâu thuẫn tuy nhiên bạn cũng sẽ lắng nghe ông xã" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/radioC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Thay vì tranh cãi, bạn luôn tìm cách thảo luận nhẹ nhàng với ông xã để tìm cách hóa giải" />

@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FFFF80"
     tools:context="${packageName}.${activityClass}" >
 
     <TextView
@@ -12,28 +13,35 @@
         android:text="Cau 2: Cách bạn nêm gia vị cho cuộc sống hôn nhân của mình là gì?" />
 
     <RadioGroup
-        android:id="@+id/radioGroup1"
+        android:id="@+id/radioGroupCau1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/radioA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="Làm điều chồng bạn vẫn thích" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/radioB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Diện đồ ngủ gợi cảm khiến chồng bạn bất ngờ" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/radioC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Gửi tin nhắn ngọt ngào cho chồng bạn" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/btnChonlai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Chọn lại" />
 
 </LinearLayout>

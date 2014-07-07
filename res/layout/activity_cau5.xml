@@ -12,25 +12,25 @@
         android:text="Câu 5: Bạn nghĩ sao về chuyện người vợ dành tình cảm cho người đàn ông khác khi đã kết hôn?" />
 
     <RadioGroup
-        android:id="@+id/radioGroup1"
+        android:id="@+id/radioGroupCau1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/radioA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="Với bạn, chuyện đó âu cũng là bình thường nhưng bạn sẽ mãi chôn giấu những cảm xúc ngoài vợ ngoài chồng ấy" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/radioB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bạn thấy điều đó là không thể chấp nhận được cũng như xúc phạm tới người chồng" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/radioC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bạn không phản đối chuyện đó. Bạn thấy vui vì mình vẫn rất hấp dẫn trong mắt nam giới ngay cả khi đã kết hôn" />

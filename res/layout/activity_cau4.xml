@@ -12,25 +12,25 @@
         android:text="Cau 4: Vợ chồng bạn sẽ quản lý tài chính như thế nào? " />
 
     <RadioGroup
-        android:id="@+id/radioGroup1"
+        android:id="@+id/radioGroupCau1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/radioA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="Vợ chồng bạn biết tích lũy tiền bạc cũng như cân bằng tài khoản của mình. Vì thế, khi cần chi một khoản tương đối, hai bạn không phải đắn đo nhiều" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/radioB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Một trong hai bạn là người tích lũy và nửa kia chi tiêu có phần mạnh tay" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/radioC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bạn và ông xã không ngại chi tền cho những sở thích đôi khi là nhất thời của bản thân" />

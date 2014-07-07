@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FF8000"
     tools:context="${packageName}.${activityClass}" >
 
     <TextView
@@ -13,25 +14,24 @@
         android:text="Câu 1: Với bạn, thế nào là một buổi hò hẹn ngọt ngào bên chồng?" />
 
     <RadioGroup
-        android:id="@+id/radioGroup1"
+        android:id="@+id/radioGroupCau1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/radioA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
             android:text="Một chuyến dã ngoại" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/radioB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Buổi tối tại nhà hàng sang trọng với thực đơn tuyệt vời và khiêu vũ trong khung cảnh lãng mạn" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/radioC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cuộn mình trên chiếc ghế dài, cùng xem phim và thưởng thức ly rượu vang sau một tuần làm việc bận rộn" />
