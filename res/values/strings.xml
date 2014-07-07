@@ -3,5 +3,6 @@
 
     <string name="app_name">Trắc Nghiệm</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_cau1">Cau1Activity</string>
 
 </resources>
