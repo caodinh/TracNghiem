@@ -42,6 +42,10 @@
             android:name="khunglongteam.tracnghiem.Cau5Activity"
             android:label="@string/title_activity_cau5" >
         </activity>
+        <activity
+            android:name="khunglongteam.tracnghiem.KetQuaActivity"
+            android:label="@string/title_activity_ket_qua" >
+        </activity>
     </application>
 
 </manifest>

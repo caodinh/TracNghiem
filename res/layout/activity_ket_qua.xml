@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4EDFF"
+    android:gravity="right"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF8D00"
+        android:text="Cuộc sống hôn nhân nhiều trải nghiệm"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="#2D80C0"
+        android:text="Trong suy nghĩ của bạn, hôn nhân sẽ thật buồn tẻ nếu không được cùng ông xã trải nghiệm những điều mới mẻ của cuộc sống. Những chuyến phiêu lưu tới vùng đất mới sau tháng ngày bộn bề công việc sẽ là sợi dây gắn kết bạn với ông xã. Và dường như mỗi chuyến đi là mỗi lần tình yêu của hai bạn được hâm nóng và thêm phần nồng nhiệt. Đôi khi, những khoảnh khắc hạnh phúc từ những chuyến đi chính là phương thuốc hàn gắn những rạn nứt trong mối quan hệ vợ chồng của hai bạn. Chính bởi thế bạn sẽ cảm thấy cuộc sống hôn nhân buồn tẻ nếu không được trải nghiệm những điều mới mẻ."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FFFF80"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/btnChoilai"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Chơi Lại" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Thoát" />
+    </LinearLayout>
+
+</RelativeLayout>

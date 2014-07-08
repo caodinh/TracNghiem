@@ -14,10 +14,10 @@
         android:text="Câu 1: Với bạn, thế nào là một buổi hò hẹn ngọt ngào bên chồng?" />
 
     <RadioGroup
-        android:id="@+id/radioGroupCau1"
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
-        android:onClick="Click_OK"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:onClick="Click_OK" >
 
         <RadioButton
             android:id="@+id/radioA"

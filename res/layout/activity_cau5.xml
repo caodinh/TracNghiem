@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#00FF80"
     tools:context="${packageName}.${activityClass}" >
 
     <TextView
@@ -12,7 +13,7 @@
         android:text="Câu 5: Bạn nghĩ sao về chuyện người vợ dành tình cảm cho người đàn ông khác khi đã kết hôn?" />
 
     <RadioGroup
-        android:id="@+id/radioGroupCau1"
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
@@ -20,7 +21,6 @@
             android:id="@+id/radioA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
             android:text="Với bạn, chuyện đó âu cũng là bình thường nhưng bạn sẽ mãi chôn giấu những cảm xúc ngoài vợ ngoài chồng ấy" />
 
         <RadioButton
@@ -35,5 +35,12 @@
             android:layout_height="wrap_content"
             android:text="Bạn không phản đối chuyện đó. Bạn thấy vui vì mình vẫn rất hấp dẫn trong mắt nam giới ngay cả khi đã kết hôn" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/btnChonlai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Chọn lại" />
 
 </LinearLayout>

@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#B1488D"
     tools:context="${packageName}.${activityClass}" >
 
     <TextView
@@ -12,7 +13,7 @@
         android:text="Cau 4: Vợ chồng bạn sẽ quản lý tài chính như thế nào? " />
 
     <RadioGroup
-        android:id="@+id/radioGroupCau1"
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
@@ -20,7 +21,6 @@
             android:id="@+id/radioA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
             android:text="Vợ chồng bạn biết tích lũy tiền bạc cũng như cân bằng tài khoản của mình. Vì thế, khi cần chi một khoản tương đối, hai bạn không phải đắn đo nhiều" />
 
         <RadioButton
@@ -35,5 +35,12 @@
             android:layout_height="wrap_content"
             android:text="Bạn và ông xã không ngại chi tền cho những sở thích đôi khi là nhất thời của bản thân" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/btnChonlai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Chọn lại" />
 
 </LinearLayout>

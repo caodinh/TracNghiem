@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#72B807"
     tools:context="${packageName}.${activityClass}" >
 
     <TextView
@@ -12,7 +13,7 @@
         android:text="Câu 3: Bạn sẽ xử lý ra sao nếu giữa bạn và chồng nảy sinh mâu thuẫn?" />
 
     <RadioGroup
-        android:id="@+id/radioGroupCau1"
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
@@ -20,7 +21,6 @@
             android:id="@+id/radioA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
             android:text="Dù phải to tiếng bạn cũng sẽ “chiến đấu” đến cùng" />
 
         <RadioButton
@@ -35,5 +35,12 @@
             android:layout_height="wrap_content"
             android:text="Thay vì tranh cãi, bạn luôn tìm cách thảo luận nhẹ nhàng với ông xã để tìm cách hóa giải" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/btnChonlai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Chọn lại" />
 
 </LinearLayout>
